@@ -8,6 +8,7 @@
 
   function addLight(button, lightID, className){
     var light = document.getElementById(lightID);
+
     button.addEventListener('click',function(){
       light.classList.toggle(className);
     });
